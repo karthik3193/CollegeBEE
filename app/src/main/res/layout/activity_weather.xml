@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.karthik.collegebee.WeatherActivity">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/aa"
+        >
+        <TextView android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:id="@+id/et"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="SELECT A OPTION"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            />
+    </LinearLayout>>
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:layout_below="@+id/aa"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/cw"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="@string/get_current_weather"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            ></Button>
+
+        <Button
+            android:id="@+id/fw"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+           android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="@string/get_forecast_weather"
+            android:background="@color/colorAccent"></Button>
+    </LinearLayout>
+</RelativeLayout>

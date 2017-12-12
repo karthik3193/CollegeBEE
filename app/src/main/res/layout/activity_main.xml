@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAcce"
+    tools:context="com.karthik.collegebee.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ltxt"
+        android:textColor="@color/white"
+        android:text="unknown"
+        android:gravity="end"
+        android:textAlignment="viewEnd">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/ltxt"
+        android:id="@+id/img">
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@raw/logott"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_below="@+id/img"
+    >
+
+    <com.imangazaliev.circlemenu.CircleMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/circleMenu"
+        app:hintsEnabled="true"
+        >
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#FAFAFA"
+            app:colorPressed="#1E88E5"
+            app:icon="@drawable/trackedicon"
+            app:hintText="HOME"
+            />
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calc"
+            app:colorNormal="#FAFAFA"
+            app:colorPressed="#43A047"
+            app:icon="@drawable/ic_calc"
+            app:hintText="CALCULATOR"
+            />
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/caln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#FAFAFA"
+            app:colorPressed="#E53935"
+            app:icon="@drawable/ic_homefeed"
+            app:hintText="CALENDAR"
+            />
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#FAFAFA"
+            app:colorPressed="#1E88E5"
+            app:icon="@drawable/ic_loc"
+            app:hintText="TRACK ME"
+            />
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/wthr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#FAFAFA"
+            app:colorPressed="#43A047"
+            app:icon="@drawable/wthr"
+            app:hintText="WEATHER"/>
+
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#FAFAFA"
+            app:colorPressed="#E53935"
+            app:icon="@drawable/tracker"
+            app:hintText="MY ACCOUNT"
+            />
+        <com.imangazaliev.circlemenu.CircleMenuButton
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:colorNormal="#FAFAFA"
+            app:colorPressed="#E53935"
+            app:icon="@drawable/ic_info"
+            app:hintText="ABOUT"/>
+    </com.imangazaliev.circlemenu.CircleMenu>
+</LinearLayout>
+</RelativeLayout>

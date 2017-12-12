@@ -1,0 +1,45 @@
+<resources>
+    <string name="OPEN_WEATHER_MAP_API_KEY">a5c7727caa9e99dcf3e059a43cb18a7b</string>
+    <string name="app_name">CollegeBEE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hello">Hello World, CalculatorActivity!</string>
+    <string name="welcome_msg">Welcome to calculator</string>
+
+    <string name="square_root_symbol">√¯¯</string>
+    <string name="squared_two">"X\u00B2"</string>
+    <string name="qube">"X\u00B3"</string>
+    <string name="delete_numbers">"\u21D0"</string>
+
+    <string name="degree_celsius">"\u2103"</string>
+    <string name="pi">"\u03C0"</string>
+    <string name="get_current_weather">GET CURRENT WEATHER</string>
+    <string name="get_forecast_weather">GET FORECAST WEATHER</string>
+
+
+    <style name="ButtonText">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle"></item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="title_activity_trip_tracker">Map</string>
+</resources>

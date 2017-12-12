@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.karthik.collegebee.About">
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:src="@raw/logo"
+        android:id="@+id/img"
+        android:foregroundGravity="center"/>
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="COLLEGE BEE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50dp"
+        android:layout_below="@+id/img"
+        android:textAlignment="center"
+        android:id="@+id/tv1"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv1"
+        android:text="A project taken under MOBILE APPLICATION DEVELOPMENT[MAD], 3rd sem, information technology, RVCE "
+        android:textAlignment="center"
+        android:id="@+id/tv2"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv2"
+        android:paddingTop="10dp"
+        android:text="by"
+        android:textAlignment="center"
+        android:id="@+id/tv3"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv3"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:text="KARTHIK N URS"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
